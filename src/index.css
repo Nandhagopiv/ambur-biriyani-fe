@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-color: #F5F7F8;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.scrollbar{
+  scrollbar-width: none;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
